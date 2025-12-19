@@ -4,8 +4,10 @@ import "fmt"
 
 // Hello world
 // Example for print.
+// The main function runs when our program starts
 func main() {
 	myPrint("hello, world")
+	myPrint("goodbye, world")
 }
 
 // a function that prints a message
