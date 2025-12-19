@@ -5,14 +5,11 @@ import "fmt"
 // Hello world
 // Example for print.
 func main() {
-	hello()
-	goodbye()
+	myPrint("hello, world")
+	myPrint("goodbye, world")
 }
 
-func hello() {
-	fmt.Println("hello, world")
-}
-
-func goodbye() {
-	fmt.Println("goodbye, world")
+// a function that prints a message
+func myPrint(str string) {
+	fmt.Println(str)
 }
