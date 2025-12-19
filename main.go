@@ -6,7 +6,6 @@ import "fmt"
 // Example for print.
 func main() {
 	myPrint("hello, world")
-	myPrint("goodbye, world")
 }
 
 // a function that prints a message
